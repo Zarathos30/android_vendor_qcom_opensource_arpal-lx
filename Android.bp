@@ -29,7 +29,6 @@ cc_library_shared {
         "-DPAL_SP_TEMP_PATH=\"/data/vendor/audio/audio.cal\"",
         "-Wall",
         "-Werror",
-        "-Wno-error=format",
         "-Wno-macro-redefined",
         "-Wno-unused-parameter",
         "-Wno-unused-variable",
@@ -176,7 +175,6 @@ cc_library_shared {
     cflags: [
         "-Wall",
         "-Werror",
-        "-Wno-error=format",
         "-Wno-unused-function",
         "-Wno-unused-variable",
     ],
